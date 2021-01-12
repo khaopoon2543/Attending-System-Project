@@ -1,0 +1,753 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 120%;
+    zoom: 75%;
+    background: white;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+/* ;----------------------------------- login ------------------------------------------; */
+
+.login_header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #E096AC;
+    text-align: center;
+    border: 1px solid #E096AC;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.login_image {
+    height: 160px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.form_login form {
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #E096AC;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+    color: #838383;
+    margin-left: 8px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px; 
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #E096AC;
+    color: #E096AC;
+}
+
+.btn {
+    height: 60px;
+    width: 30%;
+    margin-left: 33%;
+    padding: 5px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    background: #E096AC;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.error {
+    height: 50px;
+    width: 89%;
+    padding: 5px 20px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+    padding-top: 15px;
+    float: left;
+}
+
+/* ;----------------------------------- index ------------------------------------------; */
+
+header{
+  position: fixed;
+  background: #ffcee0;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+.left_area h3{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 23px;
+}
+
+.left_area span{
+  color: #e37aa1 ;
+}
+
+.right_head{
+  font-size: 15px;
+  text-transform: none;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #e37aa1;
+  text-decoration: none;
+  float: right;
+  margin-top: -37px;
+  margin-right: 40px;
+  border-radius: 50px;
+  font-weight: 100;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+/* ;----------------------------------- sidebar ------------------------------------------; */
+
+.sidebar {
+  background: #e7e7e9;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+}
+
+.sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.sidebar h4{
+  color: #e37aa1;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.sidebar a{
+  color: #838383;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+  border-radius: -100px;
+}
+
+.sidebar .choose a{
+  background: white;
+ 
+}
+
+.sidebar .choose a:hover{
+  background: white;
+  color: #838383;
+}
+
+.sidebar a:hover{
+  background: #ffcee0;
+  color: #e37aa1;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+.sidebar i:hover{
+  padding-right: 10px;
+  transition: 0.3s;
+  transform: scale(2);
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 280px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+  padding-top: 3px;
+}
+
+label #sidebar_btn:hover{
+  color: #e37aa1;
+}
+
+#check:checked ~ .sidebar{
+  left: -190px;
+}
+
+#check:checked ~ .sidebar a{
+  transition: 0.5s;
+}
+
+#check:checked ~ .sidebar h4{
+  color: #e7e7e9;
+  transition: 0.5s;
+}
+    
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check{
+  display: none;
+}
+
+.sidebar .sidebar_info_user{
+  font-size: 14px;
+  color: #acacac;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+#check:checked ~ .sidebar .sidebar_info_user{
+  color: #e7e7e9;
+  transition: 0.5s;
+}
+
+                           
+/* ;----------------------------------- content.index ------------------------------------------; */
+
+.content {
+    color: #838383;
+    padding-top: 120px;
+    margin-left: 350px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.content span{
+    color: #e37aa1;
+}
+
+.content p{
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+.content a{
+    color: #e37aa1;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  
+#check:checked ~ .content{
+    padding-left: 80px;
+    transition: 0.5s;
+}
+
+#check:checked ~ table{
+  padding-left: 100px;
+  transition: 0.5s;
+}
+
+/* ;----------------------------------- course table ------------------------------------------; */
+
+.content h2{
+  padding-top: 20px;
+}
+
+.content form{
+  width: auto;
+  margin-top: -120px;
+}
+
+.content .table{
+    font-size: 20px;
+    transition: 0.5s;
+    border-collapse: collapse;
+    border-radius: 10px ;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    float: left;
+    margin-bottom: 30px;
+}
+
+.content .table thead tr {
+  background-color: #e37aa1;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  border-right: 0px solid #e37aa1;
+}
+
+.content .table th,
+.content .table td {
+  padding: 15px 55px;
+}
+
+.content .table#attend_confirm_table th,
+.content .table#attend_confirm_table td {
+  padding: 15px 20px;
+}
+
+.content .table#student_status_table th,
+.content .table#student_status_table td {
+  padding: 25px 40px;
+}
+
+.content .table#opening_course_table th,
+.content .table#opening_course_table td {
+  padding: 15px 20px;
+}
+
+.content .table#history_course_table th,
+.content .table#history_course_table td {
+  padding: 20px 20px;
+}
+
+.content .table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+
+.content .table tbody tr.active-row {
+  color: #e37aa1;
+  background-color: #f3f3f3;
+}
+
+.content .table .btn0{ /* botton link ไปหน้า approve */
+  padding: 8px 18px;
+  color: gray;
+  background: #e6e6e6;
+  border-radius: 100px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content .table .btn1{ /* แสดงจำนวน student_request ในหน้า opening_course.php */
+  padding: 8px 20px;
+  color: white;
+  background: #e37aa1;
+  border-radius: 100px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content .table .btn2{ /* botton link ไปหน้า approve */
+  padding: 8px 20px;
+  color: white;
+  background: #ffb4cf;
+  border-radius: 100px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content .table .btn2:hover{ /* botton link ไปหน้า approve */
+  transition: 0.4s;
+  background: #e37aa1;
+  color: white;
+}
+
+/* ;----------------------------------- course info ------------------------------------------; */
+
+.head_course { /* tag ข้อมูลของรายวิชา */
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.head_course#dashboard { 
+  margin-top: -65px;
+  margin-left: 250px;
+}
+
+.head_course#opening_course { 
+  margin-top: -80px;
+  margin-left: 400px;
+  margin-bottom: 30px;
+}
+
+.head_course p{ 
+  margin-bottom: 90px;
+}
+
+.head_course a{ /* ปีการศึกษา ภาคการศึกษา*/
+  display: inline;
+  padding: 10px;
+  width: auto;
+    color: white;
+    background: #acacac;
+    background-clip: padding-box; 
+    border-radius: 10px;
+    float: left;
+}
+
+.head_course w{ /* value ของ a, aa*/
+  color: #838383;
+  padding: 20px 20px ;
+  margin-top: -10px;
+  float: left;
+}
+
+.head_course aa{ /* ตอนเรียน จำนวนนักเรียน*/
+    padding: 10px;
+    width: auto;
+    color: white;
+    background: #ffb5d0;
+    background-clip: padding-box; 
+    border-radius: 10px;
+    float: left;
+}
+
+.head_course aaa{ /* text สีชมพูวว */
+  color: #e37aa1;
+  background-clip: padding-box; 
+  border-radius: 10px;
+  float: left;
+}
+
+.head_course#student_history aaa,
+.head_course#student_history w,
+.head_course#student_history p {
+  float:none;
+  margin-bottom: 0;
+}
+
+/* ;----------------------------------- finish ------------------------------------------; */
+
+.finish aaa{
+  color: #e37aa1;
+  background-clip: padding-box; 
+  border-radius: 10px;
+}
+.finish w{
+  color: #838383;
+  padding: 20px 20px ;
+  margin-top: -10px;
+}
+
+/* ;----------------------------------- approve ------------------------------------------; */
+
+input[type="checkbox"]#checked_all:before {
+  margin-left: -20px;
+  border-color: white;
+  
+}
+
+input[type="checkbox"] {
+  position: relative;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  left: 20px;
+  -webkit-appearance: none;
+  outline: none;
+  transition: .3s;
+  
+}
+
+input[type="checkbox"]:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #e37aa1;
+  box-sizing: border-box;
+  transition: .3s; 
+}
+
+input:checked[type="checkbox"]:before {
+  border-left: none;
+  border-top: none;
+  width: 20px;
+  border-color: #e37aa1;
+  transform: rotate(45deg) translate(5px , -10px);
+}
+
+/*----submit aprrove----*/
+
+input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  margin-left: 745px;
+	padding: 0;
+	width: 250px;
+	height: 70px;
+	border: 3px outset #e37aa1;
+	border-radius: 40px;
+	background: transparent;
+	color: #e37aa1;
+	letter-spacing: 1px;
+	font-size: 25px;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+	transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+  font-family: 'Prompt', sans-serif;
+  float: left;
+}
+
+input[type="submit"]:hover {
+  color: #ffffff;
+  background-color: #e37aa1;
+}
+
+/* ;----------------------------------- student_insert ------------------------------------------; */
+
+.input-group-student {
+  float: left;
+  margin-top: 10px;
+}
+
+.input-group-student label {
+  font-size: 25px;
+  color: white;
+  background: #e37aa1;
+  padding: 10px;
+  background-clip: padding-box; 
+  border-radius: 10px;
+  
+}
+
+.input-group-student input {
+  height: 30px;
+  width: 10%;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid #E096AC;
+  color: #E096AC;
+}
+
+waiting{ 
+  padding: 8px 40px;
+  color: gray;
+  background: #e6e6e6;
+  border-radius: 100px;
+  font-weight: bold;
+  text-decoration: none;
+  border: outset;
+  border-color: #e6e6e6;
+}
+
+approven{
+  padding: 8px 35px;
+  color: white;
+  background: #ffb5d0;
+  border-radius: 100px;
+  font-weight: bold;
+  text-decoration: none;
+  border: outset;
+  border-color: #ffb5d0;
+}
+
+proceed{ 
+  padding: 8px 18px;
+  color: white;
+  background: #e37aa1;
+  border-radius: 100px;
+  font-weight: bold;
+  text-decoration: none;
+  border: outset;
+  border-color: #e37aa1;
+}
+
+.table#student_status_table waiting,
+.table#history_course_table waiting{
+  background: white;
+}
+.table#student_status_table approven, 
+.table#history_course_table approven{
+  background: white;
+  color: #ffb5d0;
+}
+.table#student_status_table proceed,
+.table#history_course_table proceed{
+  background: white;
+  color: #e37aa1;
+}
+
+.table#student_status_table waiting:hover,
+.table#history_course_table waiting:hover{
+  color: gray;
+  background: #e6e6e6;
+  transition: 0.3s;
+}
+
+.table#student_status_table approven:hover,
+.table#history_course_table approven:hover{
+  color: white;
+  background: #ffb5d0;
+  transition: 0.3s;
+}
+
+.table#student_status_table proceed:hover,
+.table#history_course_table proceed:hover{
+  color: white;
+  background: #e37aa1;
+  transition: 0.3s;
+}
+
+.search{
+  float: left;
+}
+
+.search input{
+  height: 30px;
+  width: 10%;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #E096AC;
+  color: #E096AC;
+}
+
+input[type="submit"]#search {
+  border: 3px outset #ffc2d8;
+  background-color: #ffc2d8;
+  color: white;
+  float: left;
+}
+
+input[type="submit"]#search:hover {
+  border: 3px outset #e37aa1;
+  background-color: #e37aa1;
+}
+
+.status_history {
+  border: #e37aa1;
+  border-style: outset ;
+  border-width: 5px;
+  width: 30%;
+  padding: 30px 30px;
+  margin: -30px 5px;
+  border-radius: 50px;
+}
+
+/* ;----------------------------------- officer_dashboard ------------------------------------------; */
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.table_chart {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  
+}
+
+.legend_cell {
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+
+.card_chart{
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 70px;
+  padding: 20px 30px;
+  width: auto;
+  height: auto;
+
+  transition: 0.5s;
+  border-collapse: collapse;
+  border-radius: 10px ;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.card_chart h2{
+  padding: 20px 20px 20px 20px;
+  background-color: #fff1f6;
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px ;
+  border-bottom: solid 3px #ffcadd;
+
+  font-size: 20px;
+  color: #e37aa1;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  margin-left: -20px;
+}
+
+.card{
+  display: inline-block;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 50px;
+
+  border-left: solid 10px #e37aa1;
+  padding: 20px 30px;
+  width: auto;
+  height: auto;
+  transition: 0.5s;
+  border-collapse: collapse;
+  border-radius: 10px ;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.card a{
+  font-size: 20px;
+  color: gray;
+}
+
+.card h2{
+  font-size: 50px;
+  margin-top: -30px;
+}
+
+.card i{
+  float:right;
+  margin-left: 100px;
+  font-size: 50px;
+  color: #cecece;
+}
