@@ -1,0 +1,15 @@
+course_ID,course_name,section,department,semester,academic_year,level,credit,current_student,open_student_number,note
+2209372,Intro compu ling,1,Linguistic,2,2562,Bachelor,3,40,40,-
+2225101,Korean I,1,Eastern language,2,2562,Bachelor,3,30,30,KOREAN MAJOR ONLY
+2225101,Korean I,2,Eastern language,2,2562,Bachelor,3,30,30,KOREAN MINOR AND ELECTIVE ONLY
+2222111,Chin comm I,1,Eastern language,2,2562,Bachelor,3,60,60,NON CHINESE MAJOR
+2222111,Chin comm I,2,Eastern language,2,2562,Bachelor,3,60,60,NON CHINESE MAJOR
+2223243,Japan Today,1,Eastern language,2,2562,Bachelor,3,100,100,GENED-HU
+2223243,Japan Today,2,Eastern language,2,2562,Bachelor,3,22,22,ARTS OR JAPANESE MINOR ONLY
+2223401,Int jp I,1,Eastern language,2,2562,Bachelor,3,20,20,"EDU, POL ONLY"
+2209305,Meaning Lang,1,Linguistic,2,2562,Bachelor,3,50,50,-
+2202372,Lit film,1,Western language,2,2562,Bachelor,3,300,300,ARTS ONLY
+2202372,Lit film,2,Western language,2,2562,Bachelor,3,150,150,GENED-HU
+2202345,Hello Hawaein,1,Western language,2,2562,Bachelor,3,200,200,ARTS ONLY
+2202345,Hello Hawaein,2,Western language,2,2562,Bachelor,3,200,200,GENED-HU
+2202345,Hello Hawaein,3,Western language,2,2562,Bachelor,3,50,50,GENED-HU

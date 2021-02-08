@@ -1,0 +1,93 @@
+CREATE TABLE teacher_users (
+	row_id int NOT NULL auto_increment,
+  	username varchar(100) NOT NULL,
+    	password varchar(100) NOT NULL,
+  	name varchar(100),
+  	faculty varchar(100),
+	department varchar(100),
+	course_ID int(7),
+	section int(2),
+	PRIMARY KEY(row_id,username)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE course (
+	course_ID int(7) NOT NULL,
+	course_name varchar(100),
+    	section int(2) NOT NULL,
+	department varchar(100) REFERENCES teacher_users(department),
+  	semester varchar(100),
+  	academic_year int(4),
+	level varchar(100),
+	credit int(2),
+	current_student int(3),
+	open_student_number int(3),
+	note varchar(100),
+	PRIMARY KEY(course_ID, section)
+
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE student_users (
+	username varchar(100) NOT NULL,
+	password varchar(100) NOT NULL,
+	student_ID int(10) NOT NULL,
+  	name varchar(100),
+  	faculty varchar(100),
+	major varchar(100),
+	year int(2),
+	level varchar(100),
+	PRIMARY KEY(student_ID)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE student_request (
+	student_ID int(10) NOT NULL,
+	course_ID int(7) NOT NULL REFERENCES course(course_ID),
+	section int(2) REFERENCES course(section),	
+	request_time varchar(100) REFERENCES student_status(request_time),
+	request_date varchar(100) REFERENCES student_status(request_date),
+	PRIMARY KEY(student_ID,course_ID)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE student_approven (
+	student_ID int(10) NOT NULL,
+	course_ID int(7) NOT NULL REFERENCES course(course_ID),
+	section int(2) REFERENCES course(section),	
+	approven_time varchar(100) REFERENCES student_status(approven_time),
+	approven_date varchar(100) REFERENCES student_status(approven_date),
+	PRIMARY KEY(student_ID,course_ID)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE student_status (
+	student_ID int(10) NOT NULL,
+	course_ID int(7) NOT NULL REFERENCES course(course_ID),
+	section int(2) REFERENCES course(section),
+	status varchar(100),	
+	request_time varchar(100),
+	request_date varchar(100),
+	approven_time varchar(100),
+	approven_date varchar(100),
+	proceed_time varchar(100),
+	proceed_date varchar(100),
+	PRIMARY KEY(student_ID,course_ID)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE officer_user (
+  	username varchar(100) NOT NULL,
+    	password varchar(100) NOT NULL,
+  	name varchar(100),
+  	faculty varchar(100),
+	department varchar(100),
+	PRIMARY KEY(username)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

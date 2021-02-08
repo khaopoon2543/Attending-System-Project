@@ -1,0 +1,5 @@
+git remote add origin https://github.com/ponyonpuririnlovers/Attending-System.git
+git push -u origin master
+
+#change link repository
+git remote set-url origin https://github.com/ponyonpuririnlovers/Attending-System.git

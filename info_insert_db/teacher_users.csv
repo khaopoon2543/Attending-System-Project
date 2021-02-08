@@ -1,0 +1,12 @@
+row_ID,username,password,name,faculty,department,course_ID,section
+1,imyourteacher@teacher.chula.ac.th,1234,Somchai Somsri,Arts,Linguistic,2209372,1
+2,tanead@teacher.chula.ac.th,1234,Tan Wongwattana,Arts,Eastern language,2225101,1
+3,aradee@teacher.chula.ac.th,1234,Aradee Sukree,Arts,Eastern language,2222111,1
+4,asadayuth@teacher.chula.ac.th,1234,Attawat Jungrungruengkit,Arts,Eastern language,2223243,1
+5,asadayuth@teacher.chula.ac.th,1234,Attawat Jungrungruengkit,Arts,Eastern language,2223243,2
+6,attaya@teacher.chula.ac.th,1234,Attaya lastname,Arts,Eastern language,2223401,1
+7,nuttanan@teacher.chula.ac.th,1234,Nuttakarn Meechai,Arts,Linguistic,2209305,1
+8,ajan@teacher.chula.ac.th,1234,Ajan someone,Arts,Western language,2202372,1
+9,ajan@teacher.chula.ac.th,1234,Ajan someone,Arts,Western language,2202372,2
+10,ajan@teacher.chula.ac.th,1234,Ajan someone,Arts,Western language,2202345,3
+11,ajan@teacher.chula.ac.th,1234,Ajan someone,Arts,Western language,2209372,1
