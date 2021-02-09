@@ -1,6 +1,6 @@
 # Attending-System-Project
 
-The system's link https://attendingsystemforartscu.000webhostapp.com/login.php
+The system's link https://attendingsystemforartscuu.000webhostapp.com/login.php
 
 There are usernames and passwords of users in an officer_user.csv(officer user),a teacher_users.csv(teacher users) and a student_users.csv(student users).The files are in an info_insert_db folder (https://github.com/khaopoon2543/Attending-System-Project/tree/main/info_insert_db) 
 
