@@ -9,3 +9,5 @@ Report https://drive.google.com/file/d/1Oy07ZSeHoIGtWxjkA8s8iYyScHfMwWMa/view?us
 Presentation https://www.youtube.com/watch?v=kYd7jRZwj8A
 
 Our Team https://drive.google.com/file/d/12TZ66l90Lh6G86U2DqP43oVZUy_QGZuV/view?usp=sharing
+
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=kYd7jRZwj8A "Everything Is AWESOME")
