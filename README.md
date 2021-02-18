@@ -10,4 +10,4 @@ Presentation https://www.youtube.com/watch?v=kYd7jRZwj8A
 
 Our Team https://drive.google.com/file/d/12TZ66l90Lh6G86U2DqP43oVZUy_QGZuV/view?usp=sharing
 
-[![Attending System](https://img.youtube.com/vi/kYd7jRZwj8A-Y/0.jpg)](https://www.youtube.com/watch?v=kYd7jRZwj8A "Attending System")
+[![Attending System](https://img.youtube.com/vi/kYd7jRZwj8A/0.jpg)](https://www.youtube.com/watch?v=kYd7jRZwj8A "Attending System")
