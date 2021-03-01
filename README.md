@@ -11,11 +11,11 @@ Our Team https://drive.google.com/file/d/12TZ66l90Lh6G86U2DqP43oVZUy_QGZuV/view?
 This is Project's Presentation.  <br />
 [![Attending System](https://img.youtube.com/vi/kYd7jRZwj8A/0.jpg)](https://www.youtube.com/watch?v=kYd7jRZwj8A "Attending System")
 
-Student Interface
+## Student Interface
 ![](readme-student.gif)
 
-Teacher Interface
+## Teacher Interface
 ![](readme-teacher.gif)
 
-Officer Interface
+## Officer Interface
 ![](readme-officer.gif)
