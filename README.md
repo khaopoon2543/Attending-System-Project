@@ -8,7 +8,7 @@ The files are in an info_insert_db folder (https://github.com/khaopoon2543/Atten
 Report https://drive.google.com/file/d/1Oy07ZSeHoIGtWxjkA8s8iYyScHfMwWMa/view?usp=sharing  <br />
 Our Team https://drive.google.com/file/d/12TZ66l90Lh6G86U2DqP43oVZUy_QGZuV/view?usp=sharing  <br />
 
-## Project's Presentation  <br />
+## Project Presentation  <br />
 [![Attending System](https://img.youtube.com/vi/kYd7jRZwj8A/0.jpg)](https://www.youtube.com/watch?v=kYd7jRZwj8A "Attending System")
 
 ## Student Interface
